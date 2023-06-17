@@ -1,0 +1,32 @@
+.modal {
+    position: absolute;
+    background: #fff;
+    border-radius: 0px 0px 5px 5px;
+    padding: 10px 0px;
+    border: 2px solid #4BC0D0;
+    width: 100%;
+}
+.modal-content {
+    text-align: center;
+    color: #4BC0D0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.name-club {
+    font-family: 'Montserrat', sans-serif;
+    margin: 5px 0px 10px 0px;
+    padding: 0px 0px 10px 0px;
+    border-bottom: 1px solid #4BC0D0;
+}
+.name-club:last-child {
+    border: none;
+    padding: 0px;
+}
+
+.active {
+    display: block;
+}
+.noactive {
+    display: none;  
+}

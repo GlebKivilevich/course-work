@@ -1,0 +1,363 @@
+/* Slider */
+.swiper-pagination {
+  bottom: 0;
+}
+.swiper-pagination-bullet {
+  width: 25px;
+  height: 10px;
+  border-radius: 4px;
+  background-color: #000000;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: #4bc0d0;
+  opacity: 1 !important;
+}
+.slider-container {
+  /* height: 75vh; */
+  /* top or bottom */
+  min-height: 800px;
+  height: 100%;
+  /* cursor: grab; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: end;
+}
+
+.info-blcok-section {
+  height: 100%;
+  min-height: 800px;
+  width: 50%;
+  background: linear-gradient(
+    270deg,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0.700596) 129.85%,
+    rgba(217, 217, 217, 0) 211.64%
+  );
+}
+
+.full-info-section {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 800px;
+  justify-content: center;
+  padding: 0px 30px;
+}
+
+.full-info-section h2 {
+  font-size: 55px;
+  color: #4bc0d0;
+  font-family: "Rubik Mono One", sans-serif;
+}
+.full-info-section p {
+  font-size: 30px;
+  margin: 60px 0px 40px 0px;
+  font-family: "Montserrat", sans-serif;
+  max-width: 430px;
+  width: 100%;
+}
+
+.btn-more {
+  max-width: 280px;
+  height: 60px;
+  font-size: 26px;
+  color: #4bc0d0;
+  border: 1px solid #4bc0d0;
+  border-radius: 23px;
+  background: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  align-items: center;
+}
+
+.bg-mini-fotball {
+  background-image: url("../assets/Swiper/mini-football.jpg");
+}
+.bg-basketball {
+  background-image: url("../assets/Swiper/backetball.jpg");
+}
+.bg-volleyball {
+  background-image: url("../assets/Swiper/volleyball.jpg");
+}
+.bg-rowing {
+  background-image: url("../assets/Swiper/rowing.jpg");
+}
+.bg-gym {
+  background-image: url("../assets/Swiper/gym.jpg");
+}
+.bg-armwrestling {
+  background-image: url("../assets/Swiper/armwrestling.jpg");
+}
+
+/* Schedule */
+.schedule-wrapper {
+  background-image: url("../assets/Schedule/bg-schedule.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Montserrat", sans-serif;
+  padding: 50px 0px;
+}
+.schedule-header {
+  display: flex;
+  flex-direction: column;
+  max-width: 660px;
+  width: 100%;
+  margin: 0 auto;
+}
+.schedule-header h2 {
+  font-size: 60px;
+}
+.schedule-header p {
+  font-size: 32px;
+  text-align: end;
+}
+.container {
+  margin: 25px 0px 0px 0px;
+}
+
+.schedule {
+  display: grid;
+  /*                           DATE                TIME                Discipline            Group              Place    */
+  grid-template-columns: minmax(70px, 0.25fr) minmax(100px, 0.25fr) minmax(
+      125px,
+      0.25fr
+    ) minmax(80px, 0.25fr) minmax(180px, 0.35fr);
+  grid-template-rows: 52rem;
+  gap: 0px 10px;
+  max-width: 1200px;
+  margin: 0px 5px;
+  margin: 0 auto;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.col-data {
+  display: block;
+  min-height: 100%;
+  border-right: 4px solid #4bc0d0;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+.cel-data {
+  max-width: 175px;
+  width: 100%;
+  max-height: 120px;
+  height: 100%;
+  background-color: #4bc0d0;
+  color: #ffffff;
+  font-size: 40px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.cel-nodata {
+  max-width: 175px;
+  width: 100%;
+  max-height: 100px;
+  height: 100%;
+}
+.cel-time-header {
+  max-width: 175px;
+  width: 100%;
+  max-height: 70px;
+  height: 100%;
+  background-color: #4bc0d0;
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.cel-time {
+  height: 100%;
+  max-height: 120px;
+  margin-bottom: 30px;
+  max-width: 175px;
+  width: 100%;
+}
+.time-info {
+  max-height: 35px;
+  height: 100%;
+  max-width: 175px;
+  width: 100%;
+  background-color: #4bc0d0;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.cel-discipline-header {
+  max-width: 225px;
+  width: 100%;
+  max-height: 70px;
+  height: 100%;
+  background-color: #4bc0d0;
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.cel-discipline {
+  height: 100%;
+  max-height: 120px;
+  margin-bottom: 30px;
+  max-width: 225px;
+  width: 100%;
+}
+.discipline-info {
+  max-height: 35px;
+  height: 100%;
+  max-width: 225px;
+  width: 100%;
+  background-color: #4bc0d0;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.cel-group-header {
+  max-width: 175px;
+  width: 100%;
+  max-height: 70px;
+  height: 100%;
+  background-color: #4bc0d0;
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.cel-group {
+  height: 100%;
+  max-height: 120px;
+  margin-bottom: 30px;
+  max-width: 175px;
+  width: 100%;
+}
+.group-info {
+  max-height: 35px;
+  height: 100%;
+  max-width: 175px;
+  width: 100%;
+  background-color: #4bc0d0;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.cel-place-header {
+  max-width: 300px;
+  width: 100%;
+  max-height: 70px;
+  height: 100%;
+  background-color: #4bc0d0;
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.cel-place {
+  height: 100%;
+  max-height: 120px;
+  margin-bottom: 30px;
+  max-width: 300px;
+  width: 100%;
+}
+
+.place-info {
+  max-height: 35px;
+  height: 100%;
+  max-width: 300px;
+  width: 100%;
+  background-color: #4bc0d0;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+/* slider */
+@media screen and (max-width: 820px) {
+  .info-blcok-section {
+    width: 70%;
+  }
+  .full-info-section h2 {
+    font-size: 30px;
+  }
+  .full-info-section p {
+    font-size: 20px;
+  }
+  .btn-more {
+    max-width: 180px;
+    height: 55px;
+    font-size: 20px;
+  }
+}
+/* schedule */
+@media screen and (max-width: 1100px) {
+  .cel-time-header,
+  .cel-discipline-header,
+  .cel-group-header,
+  .cel-place-header {
+    font-size: 18px;
+  }
+  .cel-data {
+    font-size: 24px;
+  }
+  .place-info,
+  .cel-group,
+  .cel-discipline,
+  .cel-time {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+    .schedule-header {
+        max-width: 425px;
+      }
+    .schedule-header h2 {
+        font-size: 30px;
+      }
+      .schedule-header p {
+        font-size: 24px;
+        text-align: end;
+      }
+  }
