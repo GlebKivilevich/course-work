@@ -5,7 +5,7 @@ import Footer from "./Footer/Footer";
 import ModalContext from "../context/context";
 
 const Layout = () => {
-  const {activeModal, setActiveModal} = useContext(ModalContext);
+  const { activeModal, setActiveModal } = useContext(ModalContext);
   const location = useLocation();
   const [headerInfo, setHeaderInfo] = useState({
     title: null,
@@ -90,9 +90,23 @@ const Layout = () => {
   }, [location]);
   return (
     <div>
-      <Header titleInfo={headerInfo} />
-      <Outlet />
-      <Footer />
+      {location.pathname !== "/volleball" &&
+      location.pathname !== "/basketball" &&
+      location.pathname !== "/rowing" &&
+      location.pathname !== "/armwrestling" &&
+      location.pathname !== "/mini-football" &&
+      location.pathname !== "/gym" &&
+      location.pathname !== "/" ? (
+        <>
+          <Outlet />
+        </>
+      ) : (
+        <>
+          <Header titleInfo={headerInfo} />
+          <Outlet />
+          <Footer />
+        </>
+      )}
     </div>
   );
 };
