@@ -1,0 +1,69 @@
+.container-info-contact {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 25px 12px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.contact-header {
+  display: flex;
+  flex-direction: column;
+  max-width: 660px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 56px;
+  font-family: "Rubik Mono One", sans-serif;
+  color: #4bc0d0;
+}
+.contact-full-information {
+  display: grid;
+  max-width: 1100px;
+  justify-items: end;
+  margin: 0 auto;
+  padding: 10px 0px 25px 0px;
+}
+
+.address {
+  grid-column: 1;
+}
+.address h3,
+.email h3,
+.phone-number h3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  font-family: 'Rubik Mono One', sans-serif; 
+  color: #4bc0d0;
+  font-size: 26px;
+  letter-spacing: 3px;
+}
+
+.info-address,
+.info-email,
+.info-phone-number {
+  width: 100%;
+  margin-left: 42px;
+}
+.info-address h4 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.info-address p,
+.info-email p,
+.info-phone-number p {
+    margin-top: 15px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+} 
+
+.email {
+  grid-column: 2;
+  max-width: 225px;
+  width: 100%;
+}
+.phone-number {
+  grid-column: 2;
+  max-width: 225px;
+  width: 100%;
+}
