@@ -64,8 +64,10 @@ const Slider = () => {
       spaceBetween={50}
       slidesPerView={1}
       navigation
+      speed={750}
+      effect="fade"
       autoplay={{
-        delay: 4000,
+        delay: 5500,
         disableOnInteraction: false,
 
       }}
