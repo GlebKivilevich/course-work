@@ -1,63 +1,90 @@
 .footer-wrapper {
-    background-color: #4BC0D0;
-    color: #FFF;
-    padding: 15px 35px 0px 35px;
+  background-color: #4bc0d0;
+  color: #fff;
+  padding: 15px 35px 0px 35px;
 }
 .footer-wrapper h2 {
-    color: #FFF;
-    font-family: 'Rubik Mono One', sans-serif; 
+  color: #fff;
+  font-family: "Rubik Mono One", sans-serif;
 }
 .footer-wrapper a {
-    color: #FFF;
-    display: block;
+  color: #fff;
+  display: block;
 }
 
-.container-footer {    
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1440px;
-    width: 100%;
-    margin: 0 auto;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 200px;
+.logo-container-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.logo-container-footer p {
+  font-size: 36px;
+  font-family: "Rubik Mono One", sans-serif;
+}
+.container-footer {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 200px;
 }
 
 .nav-container {
-    max-width: 570px;
-    width: 100%;
+  max-width: 570px;
+  width: 100%;
 }
 
 .footer-navigation {
-    display: flex;
-    flex-direction: column;
-    min-height: 55px;
-    justify-content: space-between;
-    margin-top: 15px;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 55px;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .first-nav-block {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .second-nav-block {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 15px;
 }
 
-
+@media screen and (max-width: 650px) {
+  .logo-container-footer p {
+    font-size: 22px;
+    margin: 10px 0px 15px 0px;
+  }
+  .container-footer {
+    justify-content: center;
+  }
+}
 
 @media screen and (max-width: 550px) {
-    .first-nav-block, .second-nav-block {
-        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-        gap: 6px;
-    }
+  .first-nav-block,
+  .second-nav-block {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 6px;
+  }
 
-    .second-nav-block {
-        margin-top: 6px;
-    }
-    
+  .second-nav-block {
+    margin-top: 6px;
+  }
+  .logo-container-footer {
+    flex-direction: column;
+  }
+  .nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 }

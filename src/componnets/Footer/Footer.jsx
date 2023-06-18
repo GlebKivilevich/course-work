@@ -10,9 +10,15 @@ const Footer = () => {
           <Link to="/">
             <img src={logo} alt="логотип тспк" />
           </Link>
+
+          <Link to="https://tspk.org" target="_blank">
+            <p>сайт ГАПОУ ТСПК</p>
+          </Link>
         </div>
         <nav className="nav-container">
-          <h2>Секции</h2>
+          <div className="">
+            <h2>Секции</h2>
+          </div>
           <div className="footer-navigation">
             <div className="first-nav-block">
               <Link to="/mini-football">мини-футбол</Link>
