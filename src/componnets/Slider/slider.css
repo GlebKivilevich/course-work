@@ -1,0 +1,115 @@
+/* Slider */
+.swiper-pagination {
+  bottom: 0;
+}
+.swiper-pagination-bullet {
+  width: 25px;
+  height: 10px;
+  border-radius: 4px;
+  background-color: #000000;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: #4bc0d0;
+  opacity: 1 !important;
+}
+.slider-container {
+  /* height: 75vh; */
+  /* top or bottom */
+  min-height: 800px;
+  height: 100%;
+  /* cursor: grab; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: end;
+}
+
+.info-blcok-section {
+  height: 100%;
+  min-height: 800px;
+  width: 50%;
+  background: linear-gradient(
+    270deg,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0.700596) 129.85%,
+    rgba(217, 217, 217, 0) 211.64%
+  );
+}
+
+.full-info-section {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 800px;
+  justify-content: center;
+  padding: 0px 30px;
+}
+
+.full-info-section h2 {
+  font-size: 55px;
+  color: #4bc0d0;
+  font-family: "Rubik Mono One", sans-serif;
+}
+.full-info-section p {
+  font-size: 30px;
+  margin: 60px 0px 40px 0px;
+  font-family: "Montserrat", sans-serif;
+  max-width: 430px;
+  width: 100%;
+}
+
+.btn-more {
+  max-width: 280px;
+  height: 60px;
+  font-size: 26px;
+  color: #4bc0d0;
+  border: 1px solid #4bc0d0;
+  border-radius: 23px;
+  background: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  align-items: center;
+}
+
+.bg-mini-fotball {
+  background-image: url("../../assets/Swiper/mini-football.jpg");
+}
+.bg-basketball {
+  background-image: url("../../assets/Swiper/backetball.jpg");
+}
+.bg-volleyball {
+  background-image: url("../../assets/Swiper/volleyball.jpg");
+}
+.bg-rowing {
+  background-image: url("../../assets/Swiper/rowing.jpg");
+}
+.bg-gym {
+  background-image: url("../../assets/Swiper/gym.jpg");
+}
+.bg-armwrestling {
+  background-image: url("../../assets/Swiper/armwrestling.jpg");
+}
+
+/* slider */
+@media screen and (max-width: 820px) {
+  .info-blcok-section {
+    width: 70%;
+  }
+  .full-info-section h2 {
+    font-size: 30px;
+  }
+  .full-info-section p {
+    font-size: 20px;
+  }
+  .btn-more {
+    max-width: 180px;
+    height: 55px;
+    font-size: 20px;
+  }
+}

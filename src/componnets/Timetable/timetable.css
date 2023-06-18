@@ -1,0 +1,254 @@
+/* Schedule */
+.schedule-wrapper {
+  background-image: url("../../assets/Schedule/bg-schedule.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Montserrat", sans-serif;
+  padding: 50px 0px;
+}
+.schedule-header {
+  display: flex;
+  flex-direction: column;
+  max-width: 660px;
+  width: 100%;
+  margin: 0 auto;
+}
+.schedule-header h2 {
+  font-size: 60px;
+  color: #4bc0d0;
+}
+.schedule-header p {
+  font-size: 32px;
+  text-align: end;
+  color: #4bc0d0;
+}
+.container {
+  margin: 25px 0px 0px 0px;
+}
+
+.schedule {
+  display: grid;
+  /*                           DATE                TIME                Discipline            Group              Place    */
+  grid-template-columns:
+    minmax(70px, 0.25fr) minmax(100px, 0.25fr) minmax(125px, 0.25fr)
+    minmax(80px, 0.25fr) minmax(180px, 0.35fr);
+  grid-template-rows: 52rem;
+  gap: 0px 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.col-data {
+  display: block;
+  min-height: 100%;
+  border-right: 4px solid #4bc0d0;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+.cel-data {
+  max-width: 175px;
+  width: 100%;
+  max-height: 120px;
+  height: 100%;
+  background-color: #4bc0d0;
+  color: #ffffff;
+  font-size: 40px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.cel-nodata {
+  max-width: 175px;
+  width: 100%;
+  max-height: 100px;
+  height: 100%;
+}
+.cel-time-header {
+  max-width: 175px;
+  width: 100%;
+  max-height: 70px;
+  height: 100%;
+  background-color: #4bc0d0;
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.cel-time {
+  height: 100%;
+  max-height: 120px;
+  margin-bottom: 30px;
+  max-width: 175px;
+  width: 100%;
+}
+.time-info {
+  max-height: 35px;
+  height: 100%;
+  max-width: 175px;
+  width: 100%;
+  background-color: #4bc0d0;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.cel-discipline-header {
+  max-width: 225px;
+  width: 100%;
+  max-height: 70px;
+  height: 100%;
+  background-color: #4bc0d0;
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.cel-discipline {
+  height: 100%;
+  max-height: 120px;
+  margin-bottom: 30px;
+  max-width: 225px;
+  width: 100%;
+}
+.discipline-info {
+  max-height: 35px;
+  height: 100%;
+  max-width: 225px;
+  width: 100%;
+  background-color: #4bc0d0;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.cel-group-header {
+  max-width: 175px;
+  width: 100%;
+  max-height: 70px;
+  height: 100%;
+  background-color: #4bc0d0;
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.cel-group {
+  height: 100%;
+  max-height: 120px;
+  margin-bottom: 30px;
+  max-width: 175px;
+  width: 100%;
+}
+.group-info {
+  max-height: 35px;
+  height: 100%;
+  max-width: 175px;
+  width: 100%;
+  background-color: #4bc0d0;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.cel-place-header {
+  max-width: 300px;
+  width: 100%;
+  max-height: 70px;
+  height: 100%;
+  background-color: #4bc0d0;
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.cel-place {
+  height: 100%;
+  max-height: 120px;
+  margin-bottom: 30px;
+  max-width: 300px;
+  width: 100%;
+}
+
+.place-info {
+  max-height: 35px;
+  height: 100%;
+  max-width: 300px;
+  width: 100%;
+  background-color: #4bc0d0;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+/* schedule */
+@media screen and (max-width: 1100px) {
+  .cel-time-header,
+  .cel-discipline-header,
+  .cel-group-header,
+  .cel-place-header {
+    font-size: 18px;
+  }
+  .cel-data {
+    font-size: 24px;
+  }
+  .place-info,
+  .cel-group,
+  .cel-discipline,
+  .cel-time {
+    font-size: 14px;
+  }
+  .slider-container {
+    background-position: unset;
+  }
+  .schedule {
+    margin: 0px 5px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .schedule-header {
+    max-width: 425px;
+  }
+  .schedule-header h2 {
+    font-size: 30px;
+  }
+  .schedule-header p {
+    font-size: 24px;
+    text-align: end;
+  }
+}

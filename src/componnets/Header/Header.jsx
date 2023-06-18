@@ -1,14 +1,15 @@
 import "./index.css";
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import Modal from "../Modal/Modal";
-
+// Assets
 import logo from "../../assets/Header/logoTSPK.png";
 import chevronDown from "../../assets/Header/chevronDown.jpg";
 import vkLogo from "../../assets/Header/vklogo.png";
+import ModalContext from "../../context/context";
 
-const Header = ({ titleInfo }) => {
-  const [activeModal, setActiveModal] = useState(false);
+const Header = ({ titleInfo, modalCheck }) => {
+  const {activeModal, setActiveModal} = useContext(ModalContext);
   return (
     <header className="header-wrapper">
       <nav className="navigation-header">
