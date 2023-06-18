@@ -75,6 +75,11 @@
     gap: 6px;
   }
 
+  .logo-container-footer p {
+    font-size: 17px;
+    margin: 10px 0px 15px 0px;
+  }
+
   .second-nav-block {
     margin-top: 6px;
   }
