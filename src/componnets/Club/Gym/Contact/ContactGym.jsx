@@ -1,25 +1,23 @@
 import React from "react";
-import "./contactrow.css";
-import { Link } from "react-router-dom";
 import MapComponent from "../../../Map/Map";
+import { Link } from "react-router-dom";
+import call from "../../Rowing/Contact/call.png";
+import location from "../../Rowing/Contact/location.png";
+import user from "../../Rowing/Contact/user.png";
 
-import call from "./call.png";
-import location from "./location.png";
-import user from "./user.png";
-
-const ContactRow = () => {
-  const zoom = 15;
-  const center = [53.499192, 49.300261];
+const ContactGym = () => {
+  const zoom = 16;
+  const center = [53.50478268770152, 49.40227949685244];
   const geoInfo = [
     {
       id: 1,
-      defaultGeometry: [53.499192, 49.300261],
+      defaultGeometry: [53.50478268770152, 49.40227949685244],
       balloonContentBody: `
-    <div>
-      <h2>Лыжная база ТСПК</h2>
-      <p>Улица Маршала Жукова, 51</p>
-    </div>
-  `,
+      <div>
+        <h2>Тренажерный зал</h2>
+        <p>Ленинградская улица, 28</p>
+      </div>
+    `,
     },
   ];
   return (
@@ -35,7 +33,7 @@ const ContactRow = () => {
           </h3>
           <div className="info-address">
             <h4>Самарская область, город Тольятти</h4>
-            <p>улица Маршала Жукова, 51</p>
+            <p>Ленинградская улица, 28</p>
           </div>
         </div>
         <div className="email-row">
@@ -72,4 +70,4 @@ const ContactRow = () => {
   );
 };
 
-export default ContactRow;
+export default ContactGym;

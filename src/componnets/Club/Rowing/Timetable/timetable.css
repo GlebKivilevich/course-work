@@ -163,6 +163,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 5px;
+  padding: 0px 10px;
 }
 
 .cel-place-rowing {
@@ -209,7 +210,6 @@
   }
   .schedule-rowing {
     margin: 0px 5px;
-    overflow: auto;
     justify-content: center;
     /* grid-template-columns: minmax(110px, 1fr) minmax(90px, 1fr) minmax(120px, 1fr) minmax(95px, 1fr) minmax(150px, 1fr); */
     grid-template-columns: repeat(4, 1fr);
@@ -224,10 +224,10 @@
     gap: 0px 2px;
   }
   .schedule-header-rowing h2 {
-    font-size: 20px;
+    font-size: 60px;
   }
   .schedule-header-rowing p {
-    font-size: 18px;
+    font-size: 24px;
     text-align: end;
   }
   .cel-data-rowing {
@@ -248,5 +248,19 @@
   .cel-time-rowing {
     font-size: 12px;
     text-align: center;
+  }
+}
+
+
+@media screen and (max-width: 550px) {
+  .schedule-rowing {
+    gap: 0px 2px;
+  }
+  .schedule-header-rowing h2 {
+    font-size: 36px;
+  }
+  .schedule-header-rowing p {
+    font-size: 20px;
+    text-align: end;
   }
 }

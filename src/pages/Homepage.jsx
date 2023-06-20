@@ -15,6 +15,7 @@ const Homepage = () => {
   const center = [53.495451, 49.391997]; //[53.47524653321624, 49.47700605463471]
   const geoInfo = [
     {
+      id: 1,
       defaultGeometry: [53.47524653321624, 49.47700605463471],
       balloonContentBody: `
     <div>
@@ -24,6 +25,7 @@ const Homepage = () => {
   `,
     },
     {
+      id: 2,
       defaultGeometry: [53.50478268770152, 49.40227949685244],
       balloonContentBody: `
     <div>
@@ -33,6 +35,7 @@ const Homepage = () => {
   `,
     },
     {
+      id: 3,
       defaultGeometry: [53.499192, 49.300261],
       balloonContentBody: `
     <div>

@@ -236,7 +236,7 @@
   }
   .schedule {
     margin: 0px 5px;
-    overflow: auto;
+    /* overflow: auto; */
     justify-content: center;
     /* grid-template-columns: minmax(110px, 1fr) minmax(90px, 1fr) minmax(120px, 1fr) minmax(95px, 1fr) minmax(150px, 1fr); */
     grid-template-columns: repeat(5, 1fr);

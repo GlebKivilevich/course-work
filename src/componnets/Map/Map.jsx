@@ -30,6 +30,7 @@ const MapComponent = ({
             console.log(item);
             return (
               <Placemark
+              key={item.id}
                 modules={["geoObject.addon.balloon"]}
                 defaultGeometry={item.defaultGeometry}
                 options={{
