@@ -34,7 +34,7 @@ const MapComponent = ({
                 defaultGeometry={item.defaultGeometry}
                 options={{
                   preset: "islands#blueSportIcon",
-                  color: "#4BC0D0",
+                  iconColor: "#4BC0D0",
                 }}
                 properties={{
                   balloonContentBody: item.balloonContentBody,
