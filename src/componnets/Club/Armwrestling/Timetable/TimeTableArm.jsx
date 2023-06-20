@@ -1,6 +1,6 @@
 import React from "react";
-
-const TImetableGym = () => {
+import "./TimeTable.css";
+const TimeTableArm = () => {
   return (
     <div className="schedule-wrapper-rowing">
       <div className="schedule-content-rowing">
@@ -13,8 +13,8 @@ const TImetableGym = () => {
             {/* <!-- DATE --> */}
             <div class="col-data-rowing">
               <div class="cel-nodata-rowing"></div>
-              <div class="cel-data-basketball">ПН</div>
-              <div class="cel-data-basketball">СР</div>
+              <div class="cel-data-basketball">ВТ</div>
+              <div class="cel-data-basketball">ЧТ</div>
             </div>
             {/* <!-- ВРЕМЯ --> */}
             <div class="col-rowing">
@@ -24,7 +24,7 @@ const TImetableGym = () => {
               </div>
 
               <div class="cel-time-basketball">
-                <div class="time-info-rowing">14:10 - 15:40</div>
+                <div class="time-info-rowing">14:00 - 15:30</div>
               </div>
             </div>
             {/* <!--ГРУППА  --> */}
@@ -55,4 +55,4 @@ const TImetableGym = () => {
   );
 };
 
-export default TImetableGym;
+export default TimeTableArm;

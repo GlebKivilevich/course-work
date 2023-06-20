@@ -7,6 +7,9 @@
   background-position: center;
   font-family: "Montserrat", sans-serif;
   padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .schedule-mini {
   display: grid;
