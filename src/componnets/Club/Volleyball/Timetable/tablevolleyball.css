@@ -11,7 +11,7 @@
 .schedule-volleyball {
   display: grid;
   grid-template-columns: minmax(120px,.25fr) minmax(120px,.25fr) minmax(120px,.25fr) minmax(180px,.4fr);
-  grid-template-rows: 28rem;
+  grid-template-rows: 29rem;
   gap: 0px 10px;
   max-width: 1050px;
   margin: 0 auto;

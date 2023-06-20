@@ -1,0 +1,269 @@
+/* Schedule */
+.schedule-wrapper-arm {
+    background-image: url("../../../../assets/Schedule/bg-schedule.jpg");
+    height: 100%;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    font-family: "Montserrat", sans-serif;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .schedule-header-arm {
+    display: flex;
+    flex-direction: column;
+    max-width: 660px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 25px;
+  }
+  .schedule-header-arm h2 {
+    font-size: 60px;
+    color: #4bc0d0;
+    font-family: "Rubik Mono One", sans-serif;
+  }
+  .schedule-header-arm p {
+    font-size: 32px;
+    text-align: end;
+    color: #4bc0d0;
+  }
+  .container-arm {
+    margin: 25px 0px 0px 0px;
+  }
+  
+  .schedule-arm {
+    display: grid;
+    /*                           DATE                TIME                Group                    Place    */
+    grid-template-columns: minmax(120px, 0.25fr) minmax(120px, 0.25fr) minmax(
+        120px,
+        0.25fr
+      ) minmax(180px, 0.4fr);
+    grid-template-rows: 16rem;
+    gap: 0px 10px;
+    max-width: 1050px;
+    margin: 0 auto;
+  }
+  .col-arm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .col-data-arm {
+    display: block;
+    min-height: 100%;
+    border-right: 4px solid #4bc0d0;
+    margin-right: 10px;
+    padding-right: 10px;
+  }
+  .cel-data-arm {
+    max-width: 140px;
+    width: 100%;
+    max-height: 90px;
+    height: 100%;
+    background-color: #4bc0d0;
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  .cel-nodata-arm {
+    max-width: 175px;
+    width: 100%;
+    max-height: 100px;
+    height: 100%;
+  }
+  .cel-time-header-arm {
+    max-width: 175px;
+    width: 100%;
+    max-height: 70px;
+    height: 100%;
+    background-color: #4bc0d0;
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  .cel-time-arm {
+    height: 100%;
+    max-height: 120px;
+    max-width: 175px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .time-info-arm {
+    max-height: 35px;
+    height: 100%;
+    max-width: 175px;
+    width: 100%;
+    background-color: #4bc0d0;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .cel-group-header-arm {
+    max-width: 175px;
+    width: 100%;
+    max-height: 70px;
+    height: 100%;
+    background-color: #4bc0d0;
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  
+  .cel-group-arm {
+    height: 100%;
+    max-height: 120px;
+    max-width: 175px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .group-info-arm {
+    max-height: 35px;
+    height: 100%;
+    max-width: 175px;
+    width: 100%;
+    background-color: #4bc0d0;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .cel-place-header-arm {
+    max-width: 300px;
+    width: 100%;
+    max-height: 70px;
+    height: 100%;
+    background-color: #4bc0d0;
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 0px 10px;
+  }
+  
+  .cel-place-arm {
+    height: 100%;
+    max-height: 120px;
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .place-info-arm {
+    max-height: 35px;
+    height: 100%;
+    max-width: 300px;
+    width: 100%;
+    background-color: #4bc0d0;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  /* schedule */
+  @media screen and (max-width: 1100px) {
+    .cel-time-header-arm,
+    .cel-group-header-arm,
+    .cel-place-header-arm {
+      font-size: 16px;
+    }
+    .cel-data-arm {
+      font-size: 26px;
+    }
+    .place-info-arm,
+    .cel-group-arm,
+    .cel-time-arm {
+      font-size: 12px;
+    }
+    .slider-container-arm {
+      background-position: unset;
+    }
+    .schedule-arm {
+      margin: 0px 5px;
+      justify-content: center;
+      /* grid-template-columns: minmax(110px, 1fr) minmax(90px, 1fr) minmax(120px, 1fr) minmax(95px, 1fr) minmax(150px, 1fr); */
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .cel-place-header-arm {
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 725px) {
+    .schedule-arm {
+      gap: 0px 2px;
+    }
+    .schedule-header-arm h2 {
+      font-size: 60px;
+    }
+    .schedule-header-arm p {
+      font-size: 24px;
+      text-align: end;
+    }
+    .cel-data-arm {
+      font-size: 18px;
+    }
+    .cel-time-header-arm,
+    .cel-group-header-arm,
+    .cel-place-header-arm {
+      font-size: 16px;
+      text-align: center;
+    }
+    .cel-data-arm {
+      font-size: 22px;
+      text-align: center;
+    }
+    .place-info-arm,
+    .cel-group-arm,
+    .cel-time-arm {
+      font-size: 12px;
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 550px) {
+    .schedule-arm {
+      gap: 0px 2px;
+    }
+    .schedule-header-arm h2 {
+      font-size: 36px;
+    }
+    .schedule-header-arm p {
+      font-size: 20px;
+      text-align: end;
+    }
+  }
+  

@@ -2,50 +2,50 @@ import React from "react";
 import "./TimeTable.css";
 const TimeTableArm = () => {
   return (
-    <div className="schedule-wrapper-rowing">
-      <div className="schedule-content-rowing">
-        <div className="schedule-header-rowing">
+    <div className="schedule-wrapper-arm">
+      <div className="schedule-content-arm">
+        <div className="schedule-header-arm">
           <h2>РАСПИСАНИЕ</h2>
           <p>для твоих возможностей</p>
         </div>
-        <div class="container-rowing">
-          <div class="schedule-rowing">
+        <div class="container-arm">
+          <div class="schedule-arm">
             {/* <!-- DATE --> */}
-            <div class="col-data-rowing">
-              <div class="cel-nodata-rowing"></div>
-              <div class="cel-data-rowing">ВТ</div>
-              <div class="cel-data-rowing">ЧТ</div>
+            <div class="col-data-arm">
+              <div class="cel-nodata-arm"></div>
+              <div class="cel-data-basketball">ВТ</div>
+              <div class="cel-data-basketball">ЧТ</div>
             </div>
             {/* <!-- ВРЕМЯ --> */}
-            <div class="col-rowing">
-              <div class="cel-time-header-rowing">ВРЕМЯ</div>
-              <div class="cel-time-rowing">
-                <div class="time-info-rowing">14:00 - 15:30</div>
+            <div class="col-arm">
+              <div class="cel-time-header-arm">ВРЕМЯ</div>
+              <div class="cel-time-basketball">
+                <div class="time-info-arm">14:00 - 15:30</div>
               </div>
 
-              <div class="cel-time-rowing">
-                <div class="time-info-rowing">14:00 - 15:30</div>
+              <div class="cel-time-basketball">
+                <div class="time-info-arm">14:00 - 15:30</div>
               </div>
             </div>
             {/* <!--ГРУППА  --> */}
-            <div class="col-rowing">
-              <div class="cel-group-header-rowing">ГРУППА</div>
-              <div class="cel-group-rowing">
-                <div class="group-info-rowing">Общая</div>
+            <div class="col-arm">
+              <div class="cel-group-header-arm">ГРУППА</div>
+              <div class="cel-group-basketball">
+                <div class="group-info-arm">Общая</div>
               </div>
-              <div class="cel-group-rowing">
-                <div class="group-info-rowing">Общая</div>
+              <div class="cel-group-basketball">
+                <div class="group-info-arm">Общая</div>
               </div>
             </div>
             {/* МЕСТО ПРОВЕДЕНИЯ */}
-            <div class="col-rowing">
-              <div class="cel-place-header-rowing">МЕСТО ПРОВЕДЕНИЯ</div>
-              <div class="cel-place-rowing">
-                <div class="place-info-rowing">Тренажерный зал</div>
+            <div class="col-arm">
+              <div class="cel-place-header-arm">МЕСТО ПРОВЕДЕНИЯ</div>
+              <div class="cel-place-basketball">
+                <div class="place-info-arm">Тренажерный зал</div>
               </div>
 
-              <div class="cel-place-rowing">
-                <div class="place-info-rowing">Тренажерный зал</div>
+              <div class="cel-place-basketball">
+                <div class="place-info-arm">Тренажерный зал</div>
               </div>
             </div>
           </div>
