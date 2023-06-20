@@ -27,7 +27,6 @@ const MapComponent = ({
           }}
         >
           {geoInfo.map((item) => {
-            console.log(item);
             return (
               <Placemark
               key={item.id}
