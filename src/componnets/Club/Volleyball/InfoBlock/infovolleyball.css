@@ -1,14 +1,15 @@
 
 
-.container-text {
-  height: 900px;
-  background-image: url("../../../../assets/Club/rowing.png");
+.container-text-volleyball {
+  box-sizing: border-box;
+  min-height: 900px;
+  padding: 50px 0px;
+  background-image: url("../../../../assets/Club/volleyball.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 50px 0px;
 }
-.block-text {
+.block-text-volleyball {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -20,93 +21,93 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.p-1 {
+.p-1-volleyball {
   font-size: 32px;
   max-width: 600px;
 }
-.p-2 {
+.p-2-volleyball {
   font-size: 32px;
   max-width: 600px;
-  margin-top: 100px;
+  margin-top: 75px;
 }
 
 @media screen and (max-width: 1150px) {
-  .block-text {
+  .block-text-volleyball {
     max-width: 60%;
     margin-right: 40px;
   }
-  .p-1 {
+  .p-1-volleyball {
     font-size: 28px;
   }
-  .p-2 {
+  .p-2-volleyball {
     font-size: 28px;
   }
 }
 
 @media screen and (max-width: 780px) {
-  .container-text {
-    height: 750px;
+  .container-text-volleyball {
+    min-height: 750px;
     background-size: inherit;
     background-position: top;
   }
-  .block-text {
+  .block-text-volleyball {
     max-width: 74%;
     margin-right: 20px;
   }
-  .p-1 {
+  .p-1-volleyball {
     font-size: 24px;
   }
-  .p-2 {
+  .p-2-volleyball {
     font-size: 24px;
   }
 }
 
-@media screen and (max-width: 550px) {
-  .container-text {
-    height: 600px;
+@media screen and (max-width: 580px) {
+  .container-text-volleyball {
+    min-height: 600px;
   }
-  .block-text {
-    max-width: 90%;
+  .block-text-volleyball {
+    max-width: 88%;
     margin-right: 0px;
   }
-  .p-1 {
+  .p-1-volleyball {
     font-size: 20px;
   }
-  .p-2 {
+  .p-2-volleyball {
     font-size: 20px;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .container-text {
-    height: 600px;
+  .container-text-volleyball {
+    min-height: 600px;
   }
-  .block-text {
+  .block-text-volleyball {
     max-width: 100%;
     margin-right: 0px;
   }
-  .p-1 {
+  .p-1-volleyball {
     font-size: 18px;
   }
-  .p-2 {
+  .p-2-volleyball {
     font-size: 18px;
   }
 }
 
 @media screen and (max-width: 350px) {
-  .container-text {
+  .container-text-volleyball {
     min-height: 550px;
     height: 100%;
     padding: 20px 0px;
   }
-  .block-text {
+  .block-text-volleyball {
     max-width: 100%;
     margin-right: 0px;
   }
-  .p-1 {
+  .p-1-volleyball {
     font-size: 16px;
   }
-  .p-2 {
+  .p-2-volleyball {
     font-size: 16px;
   }
 }

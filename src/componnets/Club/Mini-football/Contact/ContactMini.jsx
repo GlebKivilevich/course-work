@@ -1,9 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import MapComponent from "../../../Map/Map";
+
+// assets
 import call from "../../Rowing/Contact/call.png";
 import location from "../../Rowing/Contact/location.png";
 import user from "../../Rowing/Contact/user.png";
-import { Link } from "react-router-dom";
-import MapComponent from "../../../Map/Map";
 
 const ContactMini = () => {
   const zoom = 16;

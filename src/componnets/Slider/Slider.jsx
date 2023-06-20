@@ -53,7 +53,7 @@ const Slider = () => {
       titel: "ВОЛЕЙБОЛ",
       infoSection:
         "Укрепляет опорно-двигательный аппарат, улучшает подвижность суставов. Тренирует мышцы глаз, расширяет поле зрения.",
-      link: "/volleball",
+      link: "/volleyball",
       classSection: "slider-container bg-volleyball",
     },
   ]);
