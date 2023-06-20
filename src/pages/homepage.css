@@ -73,7 +73,7 @@
 
 @media screen and (max-width: 600px) {
   .contact-full-information {
-    grid-template-rows: 1fr 0.5fr 0.5fr;
+    /* grid-template-rows: 1fr 0.5fr 0.5fr; */
     justify-items: baseline;
     justify-content: start;
   }

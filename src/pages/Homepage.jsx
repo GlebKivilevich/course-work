@@ -11,6 +11,37 @@ import phoneIcon from "../assets/Contact/call.png";
 import { Link } from "react-router-dom";
 
 const Homepage = () => {
+  const zoom = 13;
+  const center = [53.495451, 49.391997]; //[53.47524653321624, 49.47700605463471]
+  const geoInfo = [
+    {
+      defaultGeometry: [53.47524653321624, 49.47700605463471],
+      balloonContentBody: `
+    <div>
+      <h2>Спортивный зал</h2>
+      <p>Улица Мурысева, 84</p>
+    </div>
+  `,
+    },
+    {
+      defaultGeometry: [53.50478268770152, 49.40227949685244],
+      balloonContentBody: `
+    <div>
+      <h2>Тренажерный зал</h2>
+      <p>Ленинградская улица, 28</p>
+    </div>
+  `,
+    },
+    {
+      defaultGeometry: [53.499192, 49.300261],
+      balloonContentBody: `
+    <div>
+      <h2>Лыжная база ТСПК</h2>
+      <p>Улица Маршала Жукова, 51</p>
+    </div>
+  `,
+    },
+  ];
   return (
     <>
       <div className="slider">
@@ -75,7 +106,7 @@ const Homepage = () => {
             </div>
           </div>
         </div>
-        <MapComponent />
+        <MapComponent center={center} zoom={zoom} geoInfo={geoInfo} />
       </div>
     </>
   );

@@ -3,7 +3,11 @@ import React from "react";
 // Maps
 import { YMaps, Map, Placemark, ZoomControl } from "@pbe/react-yandex-maps";
 
-const MapComponent = () => {
+const MapComponent = ({
+  center = [53.501148, 49.402336],
+  zoom = 13,
+  geoInfo,
+}) => {
   return (
     <YMaps>
       <div
@@ -18,11 +22,27 @@ const MapComponent = () => {
           width="100%"
           height="100%"
           defaultState={{
-            center: [53.501148, 49.402336],
-            zoom: 13,
+            center: center,
+            zoom: zoom,
           }}
         >
-          <Placemark
+          {geoInfo.map((item) => {
+            console.log(item);
+            return (
+              <Placemark
+                modules={["geoObject.addon.balloon"]}
+                defaultGeometry={item.defaultGeometry}
+                options={{
+                  preset: "islands#blueSportIcon",
+                  color: "#4BC0D0",
+                }}
+                properties={{
+                  balloonContentBody: item.balloonContentBody,
+                }}
+              />
+            );
+          })}
+          {/* <Placemark
             modules={["geoObject.addon.balloon"]}
             defaultGeometry={[53.47524653321624, 49.47700605463471]}
             options={{
@@ -69,7 +89,7 @@ const MapComponent = () => {
                   </div>
                 `,
             }}
-          />
+          /> */}
           <ZoomControl options={{ float: "right" }} />
         </Map>
       </div>

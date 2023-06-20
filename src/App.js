@@ -23,7 +23,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Homepage />} />
-            <Route path="volleball" element={<Volleyball />} />
+            <Route path="volleyball" element={<Volleyball />} />
             <Route path="armwrestling" element={<Armwrestling />} />
             <Route path="basketball" element={<Basketball />} />
             <Route path="mini-football" element={<MiniFootball />} />

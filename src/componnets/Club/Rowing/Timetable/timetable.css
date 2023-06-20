@@ -1,0 +1,252 @@
+/* Schedule */
+.schedule-wrapper-rowing {
+  background-image: url("../../../../assets/Schedule/bg-schedule.jpg");
+  height: 100%;
+  min-height: 600px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  font-family: "Montserrat", sans-serif;
+  padding: 50px 0px;
+}
+.schedule-header-rowing {
+  display: flex;
+  flex-direction: column;
+  max-width: 660px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 25px;
+}
+.schedule-header-rowing h2 {
+  font-size: 60px;
+  color: #4bc0d0;
+  font-family: "Rubik Mono One", sans-serif;
+}
+.schedule-header-rowing p {
+  font-size: 32px;
+  text-align: end;
+  color: #4bc0d0;
+}
+.container-rowing {
+  margin: 25px 0px 0px 0px;
+}
+
+.schedule-rowing {
+  display: grid;
+  /*                           DATE                TIME                Group                    Place    */
+  grid-template-columns: minmax(120px, 0.2fr) minmax(120px, 0.2fr) minmax(
+      120px,
+      0.2fr
+    ) minmax(180px, 0.4fr);
+  grid-template-rows: 20rem;
+  gap: 0px 10px;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+.col-rowing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.col-data-rowing {
+  display: block;
+  min-height: 100%;
+  border-right: 4px solid #4bc0d0;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+.cel-data-rowing {
+  max-width: 140px;
+  width: 100%;
+  max-height: 90px;
+  height: 100%;
+  background-color: #4bc0d0;
+  color: #ffffff;
+  font-size: 40px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.cel-nodata-rowing {
+  max-width: 175px;
+  width: 100%;
+  max-height: 100px;
+  height: 100%;
+}
+.cel-time-header-rowing {
+  max-width: 175px;
+  width: 100%;
+  max-height: 70px;
+  height: 100%;
+  background-color: #4bc0d0;
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.cel-time-rowing {
+  height: 100%;
+  max-height: 120px;
+  max-width: 175px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.time-info-rowing {
+  max-height: 35px;
+  height: 100%;
+  max-width: 175px;
+  width: 100%;
+  background-color: #4bc0d0;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.cel-group-header-rowing {
+  max-width: 175px;
+  width: 100%;
+  max-height: 70px;
+  height: 100%;
+  background-color: #4bc0d0;
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.cel-group-rowing {
+  height: 100%;
+  max-height: 120px;
+  max-width: 175px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.group-info-rowing {
+  max-height: 35px;
+  height: 100%;
+  max-width: 175px;
+  width: 100%;
+  background-color: #4bc0d0;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.cel-place-header-rowing {
+  max-width: 300px;
+  width: 100%;
+  max-height: 70px;
+  height: 100%;
+  background-color: #4bc0d0;
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.cel-place-rowing {
+  height: 100%;
+  max-height: 120px;
+  max-width: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.place-info-rowing {
+  max-height: 35px;
+  height: 100%;
+  max-width: 300px;
+  width: 100%;
+  background-color: #4bc0d0;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+/* schedule */
+@media screen and (max-width: 1100px) {
+  .cel-time-header-rowing,
+  .cel-group-header-rowing,
+  .cel-place-header-rowing {
+    font-size: 16px;
+  }
+  .cel-data-rowing {
+    font-size: 26px;
+  }
+  .place-info-rowing,
+  .cel-group-rowing,
+  .cel-time-rowing {
+    font-size: 12px;
+  }
+  .slider-container-rowing {
+    background-position: unset;
+  }
+  .schedule-rowing {
+    margin: 0px 5px;
+    overflow: auto;
+    justify-content: center;
+    /* grid-template-columns: minmax(110px, 1fr) minmax(90px, 1fr) minmax(120px, 1fr) minmax(95px, 1fr) minmax(150px, 1fr); */
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .cel-place-header-rowing {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .schedule-rowing {
+    gap: 0px 2px;
+  }
+  .schedule-header-rowing h2 {
+    font-size: 20px;
+  }
+  .schedule-header-rowing p {
+    font-size: 18px;
+    text-align: end;
+  }
+  .cel-data-rowing {
+    font-size: 18px;
+  }
+  .cel-time-header-rowing,
+  .cel-group-header-rowing,
+  .cel-place-header-rowing {
+    font-size: 16px;
+    text-align: center;
+  }
+  .cel-data-rowing {
+    font-size: 22px;
+    text-align: center;
+  }
+  .place-info-rowing,
+  .cel-group-rowing,
+  .cel-time-rowing {
+    font-size: 12px;
+    text-align: center;
+  }
+}

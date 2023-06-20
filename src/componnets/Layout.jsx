@@ -22,12 +22,12 @@ const Layout = () => {
         }));
         setActiveModal(false);
         break;
-      case "/volleball":
+      case "/volleyball":
         document.title = "Волейбол | «ЛИДЕР»";
         setHeaderInfo((state) => ({
           ...state,
-          title: "СЕКЦИЯ ПО ВОЛЕЙБОЛУ ОТ СПОРТИВНОГО КЛУБА «ЛИДЕР»",
-          naiming: null,
+          title: "студенческий спортивный клуб ГАПОУ ТСПК «Лидер»",
+          naiming: "Волейбол",
         }));
         setActiveModal(false);
         break;
@@ -35,8 +35,8 @@ const Layout = () => {
         document.title = "Баскетбол | «ЛИДЕР»";
         setHeaderInfo((state) => ({
           ...state,
-          title: "СЕКЦИЯ ПО БАСКЕТБОЛУ ОТ СПОРТИВНОГО КЛУБА «ЛИДЕР»",
-          naiming: null,
+          title: "студенческий спортивный клуб ГАПОУ ТСПК «Лидер»",
+          naiming: "Баскетбол",
         }));
         setActiveModal(false);
         break;
@@ -44,8 +44,8 @@ const Layout = () => {
         document.title = "Академическая гребля | «ЛИДЕР»";
         setHeaderInfo((state) => ({
           ...state,
-          title: "СЕКЦИЯ ПО АКАДЕМИЧЕСКОЙ ГРЕБЛЕ ОТ СПОРТИВНОГО КЛУБА «ЛИДЕР»",
-          naiming: null,
+          title: "студенческий спортивный клуб ГАПОУ ТСПК «Лидер»",
+          naiming: "Академическая гребля",
         }));
         setActiveModal(false);
         break;
@@ -53,8 +53,8 @@ const Layout = () => {
         document.title = "Армреслинг | «ЛИДЕР»";
         setHeaderInfo((state) => ({
           ...state,
-          title: "СЕКЦИЯ ПО АРМРЕСЛИНГУ ОТ СПОРТИВНОГО КЛУБА «ЛИДЕР»",
-          naiming: null,
+          title: "студенческий спортивный клуб ГАПОУ ТСПК «Лидер»",
+          naiming: "Армреслинг",
         }));
         setActiveModal(false);
         break;
@@ -62,8 +62,8 @@ const Layout = () => {
         document.title = "Мини-футбол | «ЛИДЕР»";
         setHeaderInfo((state) => ({
           ...state,
-          title: "СЕКЦИЯ ПО  МИНИ-ФУТБОЛУ ОТ СПОРТИВНОГО КЛУБА «ЛИДЕР»",
-          naiming: null,
+          title: "студенческий спортивный клуб ГАПОУ ТСПК «Лидер»",
+          naiming: "Мини-футбол",
         }));
         setActiveModal(false);
         break;
@@ -71,8 +71,8 @@ const Layout = () => {
         document.title = "Тренажёрный зал | «ЛИДЕР»";
         setHeaderInfo((state) => ({
           ...state,
-          title: "СЕКЦИЯ ПО ТРЕНАЖЕРНОМУ ЗАЛУ ОТ СПОРТИВНОГО КЛУБА «ЛИДЕР»",
-          naiming: null,
+          title: "студенческий спортивный клуб ГАПОУ ТСПК «Лидер»",
+          naiming: "Тренажерный зал",
         }));
         setActiveModal(false);
         break;
@@ -90,7 +90,7 @@ const Layout = () => {
   }, [location]);
   return (
     <div>
-      {location.pathname !== "/volleball" &&
+      {location.pathname !== "/volleyball" &&
       location.pathname !== "/basketball" &&
       location.pathname !== "/rowing" &&
       location.pathname !== "/armwrestling" &&
