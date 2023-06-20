@@ -57,6 +57,7 @@
   }
   .email-row {
     grid-column: inherit;
+    margin-top: 35px;
   }
 }
 

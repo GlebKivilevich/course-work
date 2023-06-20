@@ -9,7 +9,7 @@ const Modal = ({ activeModal }) => {
           <Link to="/mini-football">мини-футбол</Link>
         </div>
         <div className="name-club">
-          <Link to="/volleball">волейбол</Link>
+          <Link to="/volleyball">волейбол</Link>
         </div>
         <div className="name-club">
           <Link to="/basketball">баскетбол</Link>

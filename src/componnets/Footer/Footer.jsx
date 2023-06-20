@@ -22,7 +22,7 @@ const Footer = () => {
           <div className="footer-navigation">
             <div className="first-nav-block">
               <Link to="/mini-football">мини-футбол</Link>
-              <Link to="/volleball">волейбол</Link>
+              <Link to="/volleyball">волейбол</Link>
               <Link to="/gym">тренажерный зал</Link>
             </div>
             <div className="second-nav-block">
