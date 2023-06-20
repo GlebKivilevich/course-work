@@ -1,6 +1,8 @@
 import React from "react";
 import MapComponent from "../../../Map/Map";
 import { Link } from "react-router-dom";
+
+//assets 
 import call from "../../Rowing/Contact/call.png";
 import location from "../../Rowing/Contact/location.png";
 import user from "../../Rowing/Contact/user.png";
