@@ -258,6 +258,9 @@
   .schedule-rowing {
     gap: 0px 2px;
   }
+  .schedule-header-rowing {
+    padding: 0px 5px;
+  }
   .schedule-header-rowing h2 {
     font-size: 36px;
   }
