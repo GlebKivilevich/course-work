@@ -1,5 +1,5 @@
 .container-text-gym {
-    height: 900px;
+    min-height: 900px;
     padding: 50px 0px;
     background-image: url("../../../../assets/Club/gym.png");
     background-repeat: no-repeat;
