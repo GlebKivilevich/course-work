@@ -41,7 +41,7 @@
       120px,
       0.25fr
     ) minmax(180px, 0.4fr);
-  grid-template-rows: 20rem;
+  grid-template-rows: 16rem;
   gap: 0px 10px;
   max-width: 1050px;
   margin: 0 auto;
