@@ -5,7 +5,7 @@ const InfoBlockBask = () => {
     <div className="container-text-basketball">
       <div className="block-text-basketball">
         <p className="p-1-basketball">
-          <strong>Баскетбол</strong> — эьо спортивная командная игра с{" "}
+          <strong>Баскетбол</strong> — это спортивная командная игра с
           <u>мячом.</u> В баскетбол играют две команды, каждая из которых
           состоит из пяти игроков. Цель каждой команды — забросить руками мяч в
           кольцо с сеткой соперника и помешать другой команде овладеть мячом и
