@@ -34,7 +34,7 @@
 
 .schedule {
   display: grid;
-  /*                           DATE                TIME                Discipline            Group              Place    */
+  /*                           DATE                TIME                Discipline            Group                      Place    */
   grid-template-columns: minmax(120px, 0.25fr) minmax(120px, 0.25fr) minmax(175px, 0.25fr) minmax(120px, 0.25fr) minmax(180px, 0.35fr);
   grid-template-rows: 55rem;
   gap: 0px 10px;
