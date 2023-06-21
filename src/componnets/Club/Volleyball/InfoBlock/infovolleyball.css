@@ -8,6 +8,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  display: flex;
+  align-items: center;
 }
 .block-text-volleyball {
   display: flex;
@@ -22,16 +24,21 @@
 }
 
 .p-1-volleyball {
-  font-size: 32px;
+  font-size: 28px;
   max-width: 600px;
 }
 .p-2-volleyball {
-  font-size: 32px;
+  font-size: 28px;
   max-width: 600px;
   margin-top: 75px;
 }
 
 @media screen and (max-width: 1150px) {
+  .container-text-volleyball {
+    min-height: 700px;
+    background-size: inherit;
+    background-position: top;
+  }
   .block-text-volleyball {
     max-width: 60%;
     margin-right: 40px;
@@ -46,7 +53,7 @@
 
 @media screen and (max-width: 780px) {
   .container-text-volleyball {
-    min-height: 750px;
+    min-height: 650px;
     background-size: inherit;
     background-position: top;
   }
@@ -64,17 +71,17 @@
 
 @media screen and (max-width: 580px) {
   .container-text-volleyball {
-    min-height: 600px;
+    min-height: 580px;
   }
   .block-text-volleyball {
     max-width: 88%;
     margin-right: 0px;
   }
   .p-1-volleyball {
-    font-size: 20px;
+    font-size: 18px;
   }
   .p-2-volleyball {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -87,10 +94,10 @@
     margin-right: 0px;
   }
   .p-1-volleyball {
-    font-size: 18px;
+    font-size: 16px;
   }
   .p-2-volleyball {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
