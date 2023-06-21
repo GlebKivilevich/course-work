@@ -33,8 +33,8 @@ const Timetable = () => {
             </div>
             <div class="cel-time">
               <div class="time-info">14:10 - 15:40</div>
-              <div class="time-info">14:10 - 15:40</div>
               <div class="time-info">15:40 - 17:10</div>
+              <div class="time-info">14:00 - 15:30</div>
             </div>
             <div class="cel-time">
               <div class="time-info">14:00 - 15:30</div>

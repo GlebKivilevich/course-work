@@ -20,11 +20,11 @@ const TImetableGym = () => {
             <div class="col-arm">
               <div class="cel-time-header-arm">ВРЕМЯ</div>
               <div class="cel-time-basketball">
-                <div class="time-info-arm">14:00 - 15:30</div>
+                <div class="time-info-arm">15:40 - 17:10</div>
               </div>
 
               <div class="cel-time-basketball">
-                <div class="time-info-arm">14:10 - 15:40</div>
+                <div class="time-info-arm">17:10 - 18:30</div>
               </div>
             </div>
             {/* <!--ГРУППА  --> */}

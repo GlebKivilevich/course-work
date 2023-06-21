@@ -20,11 +20,11 @@ const TimetableRowing = () => {
             <div class="col-rowing">
               <div class="cel-time-header-rowing">ВРЕМЯ</div>
               <div class="cel-time-basketball">
-                <div class="time-info-rowing">15:40 - 17:10</div>
+                <div class="time-info-rowing">14:00 - 15:30</div>
               </div>
 
               <div class="cel-time-basketball">
-                <div class="time-info-rowing">17:10 - 18:30</div>
+                <div class="time-info-rowing">14:00 - 15:30</div>
               </div>
             </div>
             {/* <!--ГРУППА  --> */}
