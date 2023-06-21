@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 
 const Homepage = () => {
   const zoom = 13;
-  const center = [53.495451, 49.391997]; //[53.47524653321624, 49.47700605463471]
+  const center = [53.495451, 49.391997];
   const geoInfo = [
     {
       id: 1,
