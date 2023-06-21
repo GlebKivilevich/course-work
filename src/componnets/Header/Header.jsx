@@ -20,12 +20,12 @@ const Header = ({ titleInfo, modalCheck }) => {
         </div>
         <div className="info-block">
           <div className="section-information">
-            <div className={activeModal ? "container-section active-modal" : "container-section"} onClick={() => setActiveModal(!activeModal)}>
+            <button className={activeModal ? "container-section active-modal" : "container-section"} onClick={() => setActiveModal(!activeModal)}>
               <p>СЕКЦИИ</p>
               <div className="container-open-modal" >
                 <img src={chevronDown} alt="chevron down" />
               </div>
-            </div>
+            </button>
             <Modal activeModal={activeModal}/>
             {/* MODAL */}
           </div>

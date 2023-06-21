@@ -44,6 +44,8 @@
   height: 50px;
   cursor: pointer;
   font-family: "Rubik Mono One", sans-serif;
+  outline: none;
+  border: none;
 }
 
 .active-modal {
